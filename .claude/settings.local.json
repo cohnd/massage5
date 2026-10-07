@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(awk 'NR>=5200 {print NR\": \"length\\($0\\)}' teststuff.html)",
+      "Bash(awk -F': ' '$2>500')",
+      "Bash(awk '{print NR\": \"length\\($0\\)}' module-1.html)",
+      "Bash(awk -F': ' '$2>1500')"
+    ]
+  }
+}
